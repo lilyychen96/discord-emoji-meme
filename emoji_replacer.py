@@ -124,3 +124,7 @@ for c in total_parsed:
         r_s += (" " * 4) if c == " " else c
 
 print(r_s)
+
+f = open('emojified.txt', 'w')
+f.write(r_s)
+f.close()
